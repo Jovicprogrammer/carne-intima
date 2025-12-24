@@ -1,15 +1,23 @@
 @import "tailwindcss";
 
+  html {
+    scroll-behavior: smooth;
+    }
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+@theme {
+  --color-cleary: #ffd765;
+  --color-cheddar: #fd921e;
+  --color-sunny: #fedd38;
+  --color-flash: #c33b23;
+  --color-blood: #780606;
+  --color-violent: #d1001d;
+
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,4 +31,34 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+@utility no-scrollbar {
+  /* Chrome, Safari and Opera */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+
+/* global.css */
+::-webkit-scrollbar {
+  width: 6px; /* largura da barra vertical */
+  height: 6px; /* altura da barra horizontal */
+}
+
+::-webkit-scrollbar-track {
+  background: #780606;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fd921e; /* cor do "thumb" (laranja Tailwind) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffd765; /* cor ao passar o mouse */
 }

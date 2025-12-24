@@ -15,6 +15,7 @@ theme: {
         gothic: ['var(--font-gothic)'],
         oskons: ['var(--font-oskon)'],
         lightdream: ['var(--font-lightdream)'],
+        averia: ['var(--font-averia)'],
       },
     },
   },    

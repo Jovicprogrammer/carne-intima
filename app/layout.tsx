@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Impact } from './fonts';
+import { Impact, Averia } from './fonts';
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br">
       <body
-        className={`${Impact.variable} `}
+        className={`${Impact.variable} ${Averia.variable}`}
       >
         {children}
       </body>

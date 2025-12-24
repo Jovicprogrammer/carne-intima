@@ -9,3 +9,11 @@ export const Impact = localFont({
   display: 'swap',
 });
 
+export const Averia = localFont({
+  src: './fonts/AveriaSerif-Regular.ttf',
+  variable: '--font-averia',
+  weight: '400',
+  display: 'swap',
+});
+
+
