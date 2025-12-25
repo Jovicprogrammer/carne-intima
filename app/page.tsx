@@ -1,9 +1,13 @@
 import Image from "next/image";
 import { Averia, Impact } from "./fonts";
+import NavbarCI from "./components/Navbar";
+import FooterCI from "./components/Footer";
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen items-center justify-center bg-linear-to-b bg-cleary to-cheddar text-blood">
+
+    <NavbarCI/>
 
     <p className={` ${Impact.className} text-violent`}>
       BEM VÍNDOS! 123
@@ -39,6 +43,8 @@ export default function Home() {
       Debitis modi enim accusantium corporis, quasi maxime? Numquam id obcaecati deserunt vitae aperiam, animi iure minima blanditiis, doloremque quod ea esse quia, harum itaque quasi earum fuga est. Dolorem, incidunt?
       Qui rerum laudantium quidem quos sunt, ea laborum velit autem reiciendis corporis possimus optio deleniti quod! Quia dolor magnam non libero quam saepe praesentium. Asperiores impedit iure animi molestiae et! Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam consectetur dolorum perspiciatis, natus neque corrupti adipisci tenetur totam ipsa nemo nisi quisquam. Tenetur accusamus rem eum ex cum optio repellat.
     </p>
+
+    <FooterCI />
       
     </div>
   );
