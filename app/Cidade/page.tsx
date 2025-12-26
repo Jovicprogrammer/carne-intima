@@ -16,7 +16,7 @@ export default function Cidade() {
 
         <NavbarCI />
 
-        <p className="h-screen pt-20">
+        <p className="h-screen pt-50">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima in sunt debitis facere quasi. Quae doloribus temporibus ipsam cumque natus in error provident, sint hic. Et, ipsam. Tempora, provident blanditiis?
             Harum laborum impedit ipsa nemo voluptate, obcaecati est aut nobis molestias fugit ex ullam maiores tenetur magnam totam enim libero sit necessitatibus ab consequuntur, qui debitis modi quaerat! Animi, nulla?
             Natus doloremque suscipit eum cupiditate temporibus culpa magnam nostrum porro tempora? Adipisci architecto inventore quo quisquam assumenda at, ratione ab neque sequi dicta voluptatum vero quam, tenetur labore similique eius!

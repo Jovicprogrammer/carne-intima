@@ -16,7 +16,7 @@ export default function Historia() {
 
         <NavbarCI />
 
-        <p className="h-screen ">
+        <p className="h-screen pt-50">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum neque odio aut sequi doloribus, maiores ipsa delectus, aliquam velit vero inventore! Laudantium aperiam temporibus repellat culpa ex unde sunt expedita!
           Repudiandae ipsam vero ullam sequi, optio illo. Nulla sequi quos enim tempora voluptates iusto minima, eius quisquam at ad! Numquam ratione quaerat sed possimus magnam inventore provident. Et, aliquid cumque?
           Incidunt laboriosam a architecto ea sit assumenda tempora ad laudantium expedita voluptatum libero blanditiis optio minima voluptas illo omnis eligendi iste, molestias magnam commodi eveniet earum officiis itaque? Dolor, nesciunt.

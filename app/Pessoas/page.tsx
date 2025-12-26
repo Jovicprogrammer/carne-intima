@@ -16,7 +16,7 @@ export default function Pessoas() {
 
         <NavbarCI />
 
-        <p className="h-screen ">
+        <p className="h-screen pt-50">
             
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea sunt officiis porro autem asperiores! Enim facere voluptates natus animi! Aperiam nulla vel rem illum consequuntur! Corporis unde eveniet voluptatum eligendi.
         Corporis ipsum ea voluptatum voluptatem eveniet consectetur eius iste fugit praesentium provident excepturi maxime explicabo ducimus enim laboriosam eaque illum, ipsa nulla, sit nemo perspiciatis, quos cumque itaque quasi? Dolorum.

@@ -5,11 +5,11 @@ import FooterCI from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen items-center justify-center bg-linear-to-b bg-cleary to-cheddar text-blood">
+    <div className=" min-h-screen items-center justify-center bg-linear-to-b bg-cleary to-cheddar text-blood">
 
     <NavbarCI/>
 
-    <p className={` ${Impact.className} text-violent`}>
+    <p className={` ${Impact.className} text-violent text-center pt-50`}>
       BEM VÍNDOS! 123
     </p>
 
